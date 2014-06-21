@@ -1,0 +1,138 @@
+/*
+Pãdrão de Cores
+#1C1F26 Variação de Preto
+#4D545C Cinza Azulado
+#929CA6 Azul Claro Acinzento
+*/
+
+*{border-radius: 0px !important;}
+
+.btn{
+	text-transform: uppercase;
+	border: none;
+	padding: 12px;
+	cursor: pointer;
+	background-color: #4D545C;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;;
+	box-shadow: -1px 0px #1C1F26, 0px 1px #1C1F26, -2px 1px #1C1F26, -1px 2px #1C1F26,
+	-3px 2px #1C1F26, -2px 3px #1C1F26, -4px 3px #1C1F26, -3px 4px #1C1F26;
+	position: relative;
+}
+.btn:hover{
+	right: 2px;
+	background-color: #929CA6;
+	box-shadow: -1px 0px #1C1F26, 0px 1px #1C1F26, -2px 1px #1C1F26, -1px 2px #1C1F26,
+	-3px 2px #1C1F26, -2px 3px #1C1F26;
+}
+
+.btn:active{
+	position: relative;
+	right: 2px;
+	box-shadow: none;
+}
+
+/* btn-sucesso
+#117175 Cor padrão
+#0A4F5A Box-Shadow
+#2CA29B hover
+*/
+.btn-sucesso{
+	background-color: #117175;
+	box-shadow: -1px 0px #0A4F5A, 0 1px #0A4F5A, -2px 1px #0A4F5A, -1px 2px #0A4F5A, 
+	-3px 2px #0A4F5A, -2px 3px #0A4F5A, -4px 3px #0A4F5A, -3px 4px #0A4F5A;
+	color: #fff;
+}
+.btn-sucesso:hover{
+	right: 2px;
+	background-color: #2CA29B;
+	box-shadow: -1px 0px #0A4F5A, 0 1px #0A4F5A, -2px 1px #0A4F5A, -1px 2px #0A4F5A,
+	-3px 2px #0A4F5A, -2px 3px #0A4F5A;
+}
+.btn-sucesso:active{
+	position: relative;
+	right: 2px;
+	box-shadow: none;
+}
+
+/* btn-erro
+#8B1617 Cor padrão
+#570C0C Box-Shadow
+#BF1612 hover
+*/
+.btn-erro{
+	background-color: #8B1617;
+	box-shadow: -1px 0px #570C0C, 0px 1px #570C0C, -2px 1px #570C0C, -1px 2px #570C0C,
+	-3px 2px #570C0C, -2px 3px #570C0C, -4 3px #570C0C, -3px 4px #570C0C;
+	color: #fff;
+
+}
+.btn-erro:hover{
+	background-color: #BF1612;
+	box-shadow: -1px 0px #570C0C, 0px 1px #570C0C, -2px 1px #570C0C, -1px 2px #570C0C,
+	-3px 2px #570C0C, -2px 3px #570C0C;	
+}
+.btn-erro:active{
+	position: relative;
+	right: 2px;
+	box-shadow: none;
+}
+
+/* btn-info
+#519BBC Cor padrão
+#336180 Box-Shadow
+#65C2FF hover
+*/
+.btn-info{
+	background-color: #519BBC;
+	box-shadow: -1px 0px #336180, 0px 1px #336180, -2px 1px #336180, -1px 2px #336180,
+	 -3px 2px #336180, -2px 3px #336180, -4px 3px #336180, -3px 4px #336180;
+	color: #fff;
+}
+.btn-info:hover{
+	background-color: #65C2FF;
+	box-shadow: -1px 0px #336180, 0px 1px #336180, -2px 1px #336180, -1px 2px #336180,
+	 -3px 2px #336180, -2px 3px #336180;
+}
+.btn-info:active{
+	position: relative;
+	right: 2px;
+	box-shadow: none;
+}
+
+/* btn-cuidado
+#BC5945 Cor padrão
+#77482F Box-Shadow
+#EB9E6F hover
+*/
+.btn-cuidado{
+	background-color: #BC5945;
+	box-shadow: -1px 0px #77482F, -0px 1px #77482F, -2px 1px #77482F, -1px 2px #77482F,
+	-3px 2px #77482F, -2px 3px #77482F, -4px 3px #77482F, -3px 4px #77482F;
+	color: #fff;
+}
+
+.btn-cuidado:hover{
+	background-color: #EB9E6F;
+	box-shadow: -1px 0px #77482F, -0px 1px #77482F, -2px 1px #77482F, -1px 2px #77482F,
+	-3px 2px #77482F, -2px 3px #77482F;
+}
+.btn-cuidado:active{
+	position: relative;
+	right: 2px;
+	box-shadow: none;
+}
+
+.box{
+	width: 168px;
+	height:220px;
+	background-color:#ccc;
+	border: none;
+	text-decoration: none;
+}
+.box:hover{
+	position: relative;
+	top: -3px;
+	box-shadow: 0 3px #282828;
+} 
